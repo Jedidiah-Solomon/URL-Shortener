@@ -36,7 +36,7 @@ If you encounter any issues or have questions, feel free to open an issue. I'll 
 
 #### Visit the site
 
-`https://is.gd/hLT1UB`
+[url_shortener](https://is.gd/hLT1UB/)
 
 The regular expression used here was designed to validate common URL formats including those starting with http, https, www, or no scheme at all. E.g
 
