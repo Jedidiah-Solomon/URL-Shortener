@@ -114,3 +114,29 @@ button:hover {
 .splash-screen p {
   font-size: 1rem;
 }
+
+/* Media Queries */
+
+/* Modify at your choice */
+
+@media (max-width: 480px) {
+  button:hover {
+    background: linear-gradient(90deg, #706ad8, #246707);
+  }
+
+  #splash-screen h1 {
+    font-size: calc(1.5rem + 10px);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  h1 {
+    font-size: calc(2rem + 4px);
+  }
+}
+
+@media (min-width: 993px) {
+  button:hover {
+    background: linear-gradient(90deg, #706ad8, #cc27cc);
+  }
+}
