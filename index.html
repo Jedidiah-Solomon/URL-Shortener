@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Shortener</title>
+    <meta
+      name="description"
+      content="Free online URL shortener tool for creating shortened URLs. Easy to use and fast."
+    />
+    <meta
+      name="keywords"
+      content="URL shortener, short URLs, link shortener, free tool, web development"
+    />
+    <meta name="author" content="Jedidiah Solomon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="splash-screen" class="splash-screen">
+      <h1>URL Shortener</h1>
+      <p>by Jedidiah Solomon. All rights reserved.</p>
+    </div>
+    <div class="container hidden">
+      <h1><u>URL Shortener</u></h1>
+      <form id="urlForm">
+        <input
+          type="text"
+          id="urlInput"
+          placeholder="Enter your URL here"
+          required
+        />
+        <button type="submit">Shorten URL</button>
+      </form>
+      <div id="result" class="hidden">
+        <p><u>Shortened URL</u></p>
+        <a id="shortUrl" href="#" target="_blank"></a>
+      </div>
+      <div id="error" class="hidden"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
